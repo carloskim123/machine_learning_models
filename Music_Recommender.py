@@ -1,5 +1,5 @@
 # This tests the model accuracy according to the amount of data its been given
-# example results: 0.5, 1.0 1.5, 0.2223333
+# example results: 0.5, 1.0, 1.5, 0.2223333
 
 import pandas as pd
 from sklearn.tree import DecisionTreeClassifier
