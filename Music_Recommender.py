@@ -39,3 +39,18 @@ model = DecisionTreeClassifier()
 model.fit(X.values, y)
 predictions = model.predict([[21, 1], [22, 0]])
 predictions
+
+
+########################################################################################################################################################################################################
+#An even shorter version of the code above
+#Returns the same output
+
+from sklearn.tree import DecisionTreeClassifier
+
+# Load data and create model
+model = DecisionTreeClassifier().fit(X, df['genre'])
+
+# Make predictions
+model.predict(X[:2])
+
+
